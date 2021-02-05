@@ -3,8 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Frank van Praag">
-    <meta name="description" content="">
+    <meta name="keywords" content="{{ name }}">
+    <meta name="description" content="Dynamic Personal Contact Card">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Dynamic Card</title>
     <link rel="stylesheet" href="../static/nicepage.css" media="screen">
@@ -40,9 +40,9 @@
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-align-left u-text u-text-1">Frank van Praag</h2>
-                  <p class="u-align-left u-text u-text-2">TITLE TITLE TITLE</p>
-                  <p class="u-align-left u-text u-text-3">ADDRESS1<br>ADDRESS2<br>ADDRESS3
+                  <h2 class="u-align-left u-text u-text-1">{{ name }}</h2>
+                  <p class="u-align-left u-text u-text-2">{{ title }}</p>
+                  <p class="u-align-left u-text u-text-3">{{ addr1 }}<br>{{ locality }} {{ state }} {{ postcode }}<br>{{ country }}
                   </p>
                 </div>
               </div>
@@ -54,18 +54,8 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-febe"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">Created for Qualtrics with assistance from Hanoj</p>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
-        <span>HTML Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.com/" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
+
   </body>
 </html>
