@@ -1,14 +1,14 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 584px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 60px;
+  margin-top: 61px;
   margin-bottom: 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 530px;
+  min-height: 439px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -16,13 +16,13 @@
 }
 
 .u-section-1 .u-image-1 {
-  height: 120px;
-  margin-top: 28px;
-  margin-bottom: 0;
+  height: 129px;
+  width: 408px;
+  margin: -30px auto 0;
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 530px;
+  min-height: 439px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -31,22 +31,22 @@
 
 .u-section-1 .u-text-1 {
   font-size: 2.25rem;
-  margin: 0 159px 0 0;
+  margin: -22px 159px 0 0;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1.5rem;
-  margin: 0;
+  margin: 3px 0 0;
 }
 
 .u-section-1 .u-text-3 {
   font-size: 1.5rem;
-  margin: 33px 0 0;
+  margin: 19px 0 0;
 }
 
 .u-section-1 .u-text-4 {
   font-size: 1.5rem;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -55,7 +55,7 @@
 
 .u-section-1 .u-text-5 {
   font-size: 1.5rem;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-section-1 .u-btn-2 {
@@ -72,15 +72,16 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 437px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-image-1 {
-    height: 97px;
+    height: 112px;
+    width: 354px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 437px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-text-1 {
@@ -94,11 +95,12 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 335px;
+    min-height: 277px;
   }
 
   .u-section-1 .u-image-1 {
-    height: 71px;
+    height: 81px;
+    width: 255px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -116,16 +118,12 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 558px;
+    min-height: 462px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .u-section-1 .u-image-1 {
-    height: 123px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -141,10 +139,6 @@
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 269px;
-  }
-
-  .u-section-1 .u-image-1 {
-    height: 76px;
   }
 
   .u-section-1 .u-text-1 {
