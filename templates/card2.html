@@ -19,14 +19,14 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "",
-		"url": "index.html"
+		"name": "{{ name }}",
+		"url": "{{ url_for(request.endpoint) }}"
 }</script>
-    <meta property="og:title" content="Dynamic Card">
+    <meta property="og:title" content="{{ name }}">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="index.html">
-    <meta property="og:url" content="index.html">
+    <link rel="canonical" href="{{ url_for(request.endpoint) }}">
+    <meta property="og:url" content="{{ url_for(request.endpoint) }}">
   </head>
   <body data-home-page="https://website224218.nicepage.io/Dynamic-Card.html?version=fc16b132-8c2d-417f-9b77-7722ad629de2" data-home-page-title="Dynamic Card" class="u-body"><header class="u-align-left u-clearfix u-header u-header" id="sec-f221"><div class="u-clearfix u-sheet u-sheet-1"></div></header>
     <section class="u-clearfix u-section-1" id="sec-f9c8">
