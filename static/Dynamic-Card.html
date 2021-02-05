@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Frank van Praag">
+    <meta name="keywords" content="{{ name }}">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Dynamic Card</title>
@@ -33,16 +33,26 @@
         <div class="u-clearfix u-expanded-width u-gutter-16 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+              <div class="u-container-style u-layout-cell u-size-27 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <img class="u-image u-image-1" src="images/QualtricsXM2.gif" data-image-width="615" data-image-height="194">
+                  <img class="u-expanded-width u-image u-image-1" src="images/QualtricsXM2.gif" data-image-width="615" data-image-height="194">
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-align-left u-text u-text-1">Frank van Praag</h2>
-                  <p class="u-align-left u-text u-text-2">TITLE TITLE TITLE</p>
-                  <p class="u-align-left u-text u-text-3">ADDRESS1<br>ADDRESS2<br>ADDRESS3
+              <div class="u-align-center u-container-style u-layout-cell u-size-33 u-layout-cell-2">
+                <div class="u-container-layout u-valign-bottom u-container-layout-2">
+                  <h2 class="u-align-left u-text u-text-1">{{ name }}</h2>
+                  <p class="u-align-left u-text u-text-2"><b>{{ name }}</b>
+                  </p>
+                  <p class="u-align-left u-text u-text-3"><b><i>{{ company }}</i>
+                      <br></b>{{ addr1 }}<br>{{ locality }} {{ state }} {{ postcode }}<br>{{ country }}<br>{{ officenumber }}&nbsp;<br>
+                  </p>
+                  <p class="u-align-left u-text u-text-4">
+                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="tel:+61416133922">p: {{ mobile }}<br>
+                    </a>
+                  </p>
+                  <p class="u-align-left u-text u-text-5">
+                    <a class="u-btn u-button-link u-button-style u-none u-text-palette-1-base u-btn-2" href="mailto:frankvp@qualtrics.com?subject=Introductions...">e: {{ email }}<br>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -54,7 +64,7 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-febe"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">Created for Qualtrics with assistance from Hanoj</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">

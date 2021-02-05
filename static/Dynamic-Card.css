@@ -8,7 +8,7 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 416px;
+  min-height: 530px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -16,13 +16,13 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 495px;
-  height: 151px;
-  margin: 20px auto 0 0;
+  height: 120px;
+  margin-top: 28px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 416px;
+  min-height: 530px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -30,8 +30,8 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 3rem;
-  margin: 56px 159px 0 0;
+  font-size: 2.25rem;
+  margin: 0 159px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -41,7 +41,25 @@
 
 .u-section-1 .u-text-3 {
   font-size: 1.5rem;
+  margin: 33px 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  font-size: 1.5rem;
   margin: 20px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-text-5 {
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-btn-2 {
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -54,16 +72,15 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 343px;
+    min-height: 437px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 402px;
-    height: 123px;
+    height: 97px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 343px;
+    min-height: 437px;
   }
 
   .u-section-1 .u-text-1 {
@@ -77,12 +94,11 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 263px;
+    min-height: 335px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 292px;
-    height: 89px;
+    height: 71px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -100,12 +116,16 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 395px;
+    min-height: 558px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 123px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -120,7 +140,11 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 249px;
+    min-height: 269px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 76px;
   }
 
   .u-section-1 .u-text-1 {
