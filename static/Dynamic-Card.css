@@ -1,10 +1,9 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 584px;
+  min-height: 493px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 61px;
-  margin-bottom: 60px;
+  margin: 61px auto 10px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -22,7 +21,7 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 174px;
+  min-height: 438px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -37,6 +36,7 @@
 
 .u-section-1 .u-text-2 {
   font-size: 1.5rem;
+  font-weight: 700;
   margin: 3px 0 0;
 }
 
@@ -47,7 +47,7 @@
 
 .u-section-1 .u-text-4 {
   font-size: 1.5rem;
-  margin: 19px 0 0;
+  margin: 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -56,7 +56,7 @@
 
 .u-section-1 .u-text-5 {
   font-size: 1.5rem;
-  margin: 0;
+  margin: -3px 0 0;
 }
 
 .u-section-1 .u-btn-2 {
@@ -70,6 +70,8 @@
 
   .u-section-1 .u-layout-wrap-1 {
     position: relative;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -82,11 +84,19 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 143px;
+    min-height: 361px;
   }
 
   .u-section-1 .u-text-1 {
     margin-right: 59px;
+  }
+
+  .u-section-1 .u-text-2 {
+    text-transform: none;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-weight: 400;
   }
 }
 
@@ -98,6 +108,8 @@
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 5px;
     margin-bottom: 20px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -151,11 +163,17 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 343px;
+    min-height: 614px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 59px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 119px;
+    min-height: 133px;
   }
 
   .u-section-1 .u-image-1 {
@@ -163,7 +181,19 @@
     width: 300px;
   }
 
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 433px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-top: -1px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-weight: 700;
   }
 }
