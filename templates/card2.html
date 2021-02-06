@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Dynamic Card</title>
+    <title>{{ name }}</title>
     <link rel="stylesheet" href="../static/nicepage.css" media="screen">
 <link rel="stylesheet" href="../static/Dynamic-Card.css" media="screen">
     <script class="u-script" type="text/javascript" src="../static/jquery-1.9.1.min.js" defer=""></script>
@@ -21,7 +21,7 @@
 		"@type": "Organization",
 		"name": "Dynamic Card"
 }</script>
-    <meta property="og:title" content="Dynamic Card">
+    <meta property="og:title" content="{{ name }}">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
   </head>
@@ -40,8 +40,7 @@
                 <div class="u-container-layout u-container-layout-2">
                   <h2 class="u-align-left u-text u-text-1">{{ name }}</h2>
                   <p class="u-align-left u-text u-text-2"><b>
-                      <span style="font-weight: 400;">{{ </span>
-                      <span style="font-weight: 400;">title }}</span></b>
+                      <span style="font-weight: 400;">{{ title }}</span></b>
                   </p>
                   <p class="u-align-left u-text u-text-3"><b><i>{{ company }}</i>
                       <br></b>{{ addr1 }}<br>{{ locality }} {{ state }} {{ postcode }}<br>{{ country }}<br>{{ officenumber }}&nbsp;<br>
